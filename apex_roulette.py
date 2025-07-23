@@ -5,7 +5,7 @@ import streamlit.components.v1 as stc
 
 st.title('レジェンドルーレットアプリ')
 st.caption('created by taichaemon')
-st.subheader('APEX全レジェンド26人')
+st.subheader('APEX全レジェンド27人')
 population_category = st.radio('【人数】', ('1', '2', '3', '4'), horizontal=True)
 
 l = ['アッシュ', 
@@ -24,6 +24,7 @@ l = ['アッシュ',
      'シア',
      'ブラちゃん',
      'エコーちゃん',
+     'スパロー',
      'カタリスト',
      'ガスおじ',
      'ランパート',
